@@ -24,7 +24,7 @@ public class Robot {
         System.out.println("Stopping robot...");
     }
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         Robot robot = new Robot();
         robot.startMoving();
 
